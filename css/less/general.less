@@ -9,13 +9,14 @@ body{
     margin-bottom: @base - 4;
   }
   .clearfix{
-    border-bottom: 1px solid @primary-color-2;
+    border-bottom: 1px solid lighten(@primary-color-2, 25%);
   }
   header{
     max-height: 55px;
     &.head{
       background-color: @primary-color-1;
       color: @font-color-altern;
+      font-weight: bold;
       padding: 2%;
       span{
         float: left;
